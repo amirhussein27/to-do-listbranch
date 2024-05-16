@@ -57,6 +57,7 @@ else{console.log(newdo);
        })
        
        newdoli.addEventListener('click',function(){
+
         if( newdoli.style.textDecoration!="line-through"){  
               newdoli.style.textDecoration="line-through"
               newdoli.style.opacity=0.35
@@ -70,7 +71,7 @@ else{console.log(newdo);
     }
     else{
         newdoli.style.textDecoration="none"
-        newdoli.style.color="black"
+        newdoli.style.color="red"
         newdoli.style.opacity=1
         newcheck.style.display="none"
 
@@ -95,6 +96,7 @@ let newdo=myinp.value
 
 
 addnewdo(newdo)
+myinp.value=''  
 
         })
   
