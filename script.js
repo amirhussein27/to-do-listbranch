@@ -54,6 +54,8 @@ else{console.log(newdo);
         newdoli.remove()
         trash1.remove()
         newhr.remove()
+        newcheck.remove()
+
        })
        
        newdoli.addEventListener('click',function(){
